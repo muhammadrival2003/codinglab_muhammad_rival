@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header{
+    position: sticky;
+    top: 0px;
+    padding: 10px 60px 10px;
+    background-color: #778899;
+    z-index: 999;
+}
+
+.header h2{
+    color: #fff;
+    
+}
+
+/* Homepage */
+.content{
+    display: flex;
+}
+.content_right .homepage{
+    height: 580px;
+}
+.content_right .homepage h3{
+    margin-top: 60px;
+}
+.opsi{
+    margin-top: 30px;
+}
+.content_right .homepage a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: #fff;
+    
+    padding: 15px;
+    background-color: #778899;
+    border-radius: 10px;
+}
+/* End Homepage */
+
+.content_right h2{
+    margin-bottom: 20px;
+    
+}
+
+.sidebar{
+    position: sticky;
+    top: 45px;
+    background-color: #B0C4DE;
+    width: 300px;
+    height:600px;
+    padding: 30px;
+}
+
+.sidebar ul li{
+    list-style: none;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #778899;
+}
+
+.sidebar ul li a{
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 10px;
+    color: #fff;
+    
+}
+
+.content_right{
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer{
+    padding: 10px;
+    text-align: center;
+    background-color: #778899;
+}
+
+.footer h5{
+    color: #fff;
+}
+
+/* Hewan dan Tumbuhan */
+.content_right .group{
+    
+    margin: 20px;
+    align-items: center;
+}
+
+.content_right .group h3{
+    
+    margin-block: 15px;
+}
+
+.content_right .group img{
+    
+    width: 60%;
+    margin-top: 20px;
+    border: solid 3px #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px grey;
+}
+.content_right .group p{
+    
+    text-align: justify;
+    margin-top: 10px;
+    margin-inline: 20%;
+    padding: 10px 10px;
+    border-inline: solid 3px;
+}
+.content_right .group a{
+    
+    display: inline-block;
+    text-decoration: none;
+    align-items: enter;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    padding: 10px;
+    background-color: #778899;
+    border-radius: 10px;
+    
+    color: #fff;
+}
+
+/* End Hewan dan Tumbuhan */
+
+
+/* Selengkapnya Hewan dan Tumbuhan */
+
+.content_right .items{
+    display: flex;
+    padding: 30px;
+    height: 480px;
+    overflow: scroll;
+}
+.content_right .items img{
+    width: 50%;
+    height: 400px;
+    border-radius: 10px;
+}
+.content_right .items .text{
+    padding-inline: 20px;
+}
+.content_right .items .text h3{
+    text-align: start;
+    padding-bottom: 10px;
+    
+}
+.content_right .items .text p{
+    text-align: justify;
+    padding-top: 10px;
+}
+
+/* End Selengkapnya Hewan dan Tumbuhan */
