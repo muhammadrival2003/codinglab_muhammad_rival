@@ -11,18 +11,24 @@
 }
 
 .header{
+    display: flex;
     position: sticky;
     top: 0;
+    height: 40px;
     background-color: #fff;
     border: solid;
 }
 .header .header-logo{
-    float: left;
-    border: solid;
+    width: 15%;
+    line-height: 40px;
+    text-align: center;
 }
 .header .header-menu{
-    float: left;
-    border: solid;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    width: 60%;
+
 }
 .header .header-menu ul li{
     display: inline-block;
@@ -33,7 +39,9 @@
     text-decoration: none;
 }
 .header .header-right{
-    float: right;
+    width: 25%;
+    text-align: center;
+    line-height: 40px;
     border: solid;
 }
 
@@ -59,7 +67,8 @@
 }
 .seo-area .introduce{
     text-align: center;
-    padding: 30px;
+    margin-top: 30px;
+    padding: 10px;
     border: solid;
 }
 
@@ -71,6 +80,7 @@
     width: 300px;
     height: 350px;
     line-height: 350px;
+    margin-right: 20px;
     text-align: center;
     border: solid;
 }
@@ -78,6 +88,7 @@
     width: 300px;
     height: 350px;
     line-height: 350px;
+    margin-right: 20px;
     text-align: center;
     border: solid;
 }
@@ -90,11 +101,12 @@
 }
 
 .drive-area{
-    padding: 20px;
+    margin-top: 30px;
 }
 .drive-area .drive-title{
-    padding: 30px;
+    padding: 10px;
     text-align: center;
+    border: solid;
 }
 .drive-area .drive-content .ux{
     display: flex;
@@ -134,24 +146,33 @@
     border: solid;
 }
 
+.service-area{
+    margin-top: 30px;
+}
 .service-area .service-title{
     text-align: center;
+    padding: 10px;
+    border: solid;
 }
 .service-area .service-content{
-    margin: 50px;
+    margin: 30px 70px 30px;
     border: solid;
 }
 .service-area .service-content .column{
     float: left;
     width: 50%;
-    height: 250px;
-    line-height: 250px;
+    height: 150px;
+    line-height: 150px;
     text-align: center;
     border: solid;
 }
 
+.award-area{
+    margin-top: 30px;
+}
 .award-area .award-title{
     text-align: center;
+    padding: 10px;
     border: solid;
 }
 .award-area .brand{
@@ -163,6 +184,7 @@
 }
 
 .project-area{
+    margin-top: 50px;
     border: solid;
 }
 .project-area .project-title{
@@ -208,8 +230,78 @@
 }
 
 .testimonial-area{ 
+    margin-top: 30px;
     height: 300px;
     line-height: 300px;
+    text-align: center;
+    border: solid;
+}
+
+.faq-area{
+    display: flex;
+    margin-top: 50px;
+    border: solid;
+}
+.faq-area .faq-title{
+    width: 50%;
+    height: 350px;
+    line-height: 350px;
+    text-align: center;
+    border: solid;
+}
+.faq-area .faq-items{
+    width: 50%;
+    height: 350px;
+    line-height: 350px;
+    text-align: center;
+    border: solid;
+}
+
+
+.social-area{
+    display: flex;
+    margin-top: 30px;
+    border: solid;
+}
+.social-area .column{
+    width: 50%;
+    text-align: center;
+    border: solid;
+}
+.social-area .column .items{
+    height: 50px;
+    line-height: 50px;
+    margin: 40px 30px 40px;
+    text-align: center;
+    border: solid;
+}
+
+.cta-area{
+    margin-top: 50px;
+    text-align: center;
+    height: 300px;
+    line-height: 300px;
+    border: solid;
+}
+
+.brand-area{
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    margin-top: 30px;
+    border: solid;
+}
+
+.footer{
+    margin-top: 30px;
+    padding: 30px;
+    border: solid;
+}
+.footer .column{
+    float: left;
+    width: 25%;
+    height: 200px;
+    line-height: 200px;
     text-align: center;
     border: solid;
 }
