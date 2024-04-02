@@ -1,0 +1,51 @@
+/* Selector Tag */
+p {
+    color: blue;
+}
+/* End Selector Tag */
+
+/* Selector Class */
+.text-white{
+    color: white;
+}
+
+.bg-tomato{
+    background-color: tomato;
+}
+/* End Selector Class */
+
+/* Selector ID */
+#header {
+    background: tomato;
+    color: white;
+    height: 100px;
+    padding: 50px;
+}
+/* End Selector ID */
+
+/* Selector Atribut */
+input[type=text] {
+    background: none;
+    color: black;
+    padding: 10px;
+    border: 1px solid tomato;
+}
+/* End Selector Atribut */
+
+/* Selector Universal */
+/* *{
+    border: solid 2px black;
+} */
+/* End Selector Universal */
+
+/* Selector Pseudo Class */
+a:hover{
+    color: tomato;
+}
+/* End Selector Pseudo Class */
+
+/* Selectro Pseudo Element */
+p::first-line{
+    color: tomato;
+}
+/* End Selectro Pseudo Element */
