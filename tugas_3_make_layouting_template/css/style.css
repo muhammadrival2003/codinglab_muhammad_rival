@@ -1,0 +1,225 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+    border: solid;
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    border: solid;
+}
+.header .header-logo{
+    float: left;
+    border: solid;
+}
+.header .header-menu{
+    float: left;
+    border: solid;
+}
+.header .header-menu ul li{
+    display: inline-block;
+    list-style: none;
+    border: solid;
+}
+.header .header-menu ul li a{
+    text-decoration: none;
+}
+.header .header-right{
+    float: right;
+    border: solid;
+}
+
+.banner{
+    display: flex;
+    height: 600px;
+    line-height: 600px;
+    border: solid;
+}
+.banner-left{
+    width: 600px;
+    text-align: center;
+    border: solid;
+}
+.banner-right{
+    width: 600px;
+    text-align: center;
+    border: solid;
+}
+
+.seo-area{
+    border: solid;
+}
+.seo-area .introduce{
+    text-align: center;
+    padding: 30px;
+    border: solid;
+}
+
+.seo-area .excess{
+    display: flex;
+    justify-content: center;
+}
+.seo-area .excess .growing{
+    width: 300px;
+    height: 350px;
+    line-height: 350px;
+    text-align: center;
+    border: solid;
+}
+.seo-area .excess .speed{
+    width: 300px;
+    height: 350px;
+    line-height: 350px;
+    text-align: center;
+    border: solid;
+}
+.seo-area .excess .testing{
+    width: 300px;
+    height: 350px;
+    line-height: 350px;
+    text-align: center;
+    border: solid;
+}
+
+.drive-area{
+    padding: 20px;
+}
+.drive-area .drive-title{
+    padding: 30px;
+    text-align: center;
+}
+.drive-area .drive-content .ux{
+    display: flex;
+    margin-bottom: 20px;
+    border: solid;
+}
+.drive-area .drive-content .ux .ux-left{
+    width: 600px;
+    height: 350px;
+    line-height: 350px;
+    text-align: center;
+    border: solid;
+}
+.drive-area .drive-content .ux .ux-right{
+    width: 600px;
+    height: 350px;
+    line-height: 350px;
+    text-align: center;
+    border: solid;
+}
+.drive-area .drive-content .more{
+    display: flex;
+    border: solid;
+}
+.drive-area .drive-content .more .more-left{
+    width: 600px;
+    height: 350px;
+    line-height: 350px;
+    text-align: center;
+    border: solid;
+}
+.drive-area .drive-content .more .more-right{
+    width: 600px;
+    height: 350px;
+    line-height: 350px;
+    text-align: center;
+    border: solid;
+}
+
+.service-area .service-title{
+    text-align: center;
+}
+.service-area .service-content{
+    margin: 50px;
+    border: solid;
+}
+.service-area .service-content .column{
+    float: left;
+    width: 50%;
+    height: 250px;
+    line-height: 250px;
+    text-align: center;
+    border: solid;
+}
+
+.award-area .award-title{
+    text-align: center;
+    border: solid;
+}
+.award-area .brand{
+    margin: 20px 100px 20px;
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
+    border: solid;
+}
+
+.project-area{
+    border: solid;
+}
+.project-area .project-title{
+    display: flex;
+    border: solid;
+}
+.project-area .project-title .project-text{
+    width: 60%;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    border: solid;
+}
+.project-area .project-title .project-view{
+    width: 40%;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    border: solid;
+}
+.project-area .project-image{
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
+    border: solid;
+}
+
+.funfact-area{
+    margin-top: 50px;
+    border: solid;
+}
+.funfact-area .funfact-title{
+    text-align: center;
+    border: solid;
+}
+.funfact-area .column{
+    float: left;
+    width: 33.33%;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    border: solid;
+}
+
+.testimonial-area{ 
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
+    border: solid;
+}
+
+
+
+
+/* Clearfix */
+.cf::after{
+    content: " ";
+    clear: both;
+    display: table;
+}
