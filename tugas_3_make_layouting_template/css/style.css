@@ -5,19 +5,22 @@
 }
 
 .container{
-    width: 1200px;
-    margin: auto;
-    border: solid;
+    width: 1440px;
 }
 
 .header{
-    display: flex;
     position: sticky;
     top: 0;
-    height: 40px;
     background-color: #fff;
-    border: solid;
     background-color: #DAA520;
+}
+.header .row{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    border: solid;
 }
 .header .header-logo{
     width: 15%;
@@ -29,7 +32,6 @@
     align-items: center;
     padding-left: 20px;
     width: 60%;
-
 }
 .header .header-menu ul li{
     display: inline-block;
@@ -43,7 +45,6 @@
     width: 25%;
     text-align: center;
     line-height: 40px;
-    border: solid;
 }
 .header .header-right a{
     color: black;
@@ -52,120 +53,124 @@
 
 .banner{
     display: flex;
+    justify-content: center;
+    width: 100%;
     height: 600px;
     line-height: 600px;
-    border: solid;
+    background-color: #E0FFFF;
+}
+.banner .row{
+    width: 1200px;
+    background-color: #FFFACD;
 }
 .banner-left{
+    float: left;
     width: 600px;
     text-align: center;
-    border: solid;
 }
 .banner-right{
+    float: right;
     width: 600px;
     text-align: center;
-    border: solid;
 }
 
-.seo-area{
+.seo-area .row{
+    width: 1200px;
+    margin: 0 auto;
     padding: 30px 0px 30px;
     background-color: #ADD8E6;
-    border: solid;
 }
 .seo-area .introduce{
     text-align: center;
-    padding: 10px;
-    border: solid;
-}
-
-.seo-area .excess{
-    display: flex;
-    justify-content: center;
+    padding: 30px;
 }
 .seo-area .excess .growing{
-    width: 300px;
-    height: 350px;
-    line-height: 350px;
-    margin-right: 20px;
+    width: 375px;
+    height: 500px;
+    line-height: 500px;
+    float: left;
+    margin-right: 37.5px;
     text-align: center;
-    border: solid;
+    background-color: #E6E6FA;
 }
 .seo-area .excess .speed{
-    width: 300px;
-    height: 350px;
-    line-height: 350px;
-    margin-right: 20px;
+    width: 375px;
+    height: 500px;
+    line-height: 500px;
+    float: left;
+    margin-right: 37.5px;
     text-align: center;
-    border: solid;
+    background-color: #FFF0F5;
 }
 .seo-area .excess .testing{
-    width: 300px;
-    height: 350px;
-    line-height: 350px;
+    width: 375px;
+    height: 500px;
+    float: right;
+    line-height: 500px;
     text-align: center;
-    border: solid;
+    background-color: #FFFACD;
 }
 
-.drive-area{
+.drive-area .row{
+    width: 1200px;
+    margin: 0 auto;
     padding: 30px 0px 30px;
-    background-color: #FFFACD;
-    border: solid;
+    background-color: #5F9EA0;
 }
 .drive-area .drive-title{
-    padding: 10px;
+    padding: 30px;
     text-align: center;
-    border: solid;
 }
 .drive-area .drive-content .ux{
     display: flex;
     margin-bottom: 20px;
-    border: solid;
 }
 .drive-area .drive-content .ux .ux-left{
     width: 600px;
     height: 350px;
     line-height: 350px;
     text-align: center;
-    border: solid;
+    background-color: #D3D3D3;
 }
 .drive-area .drive-content .ux .ux-right{
     width: 600px;
     height: 350px;
     line-height: 350px;
     text-align: center;
-    border: solid;
+    background-color: #778899;
 }
 .drive-area .drive-content .more{
     display: flex;
-    border: solid;
 }
 .drive-area .drive-content .more .more-left{
     width: 600px;
     height: 350px;
     line-height: 350px;
     text-align: center;
-    border: solid;
+    background-color: #778899;
 }
 .drive-area .drive-content .more .more-right{
     width: 600px;
     height: 350px;
     line-height: 350px;
     text-align: center;
-    border: solid;
+    background-color: #D3D3D3;
 }
 
 .service-area{
-    padding: 30px 0px 30px;
     background-color: #20B2AA;
+}
+.service-area .row{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0px 30px;
 }
 .service-area .service-title{
     text-align: center;
-    padding: 10px;
-    border: solid;
+    padding: 30px;
 }
 .service-area .service-content{
-    margin: 30px 70px 30px;
-    border: solid;
+    margin-top: 30px;
 }
 .service-area .service-content .column{
     float: left;
@@ -173,63 +178,67 @@
     height: 150px;
     line-height: 150px;
     text-align: center;
+    background-color: #8FBC8F;
     border: solid;
 }
 
 .award-area{
     padding: 30px 0px 30px;
-    border: solid;
+    background-color: #E9967A;
+}
+.award-area .row{
+    width: 1200px;
+    margin: 0 auto;
 }
 .award-area .award-title{
     text-align: center;
-    padding: 10px;
-    border: solid;
+    padding: 30px;
 }
 .award-area .brand{
-    margin: 20px 100px 20px;
     height: 300px;
     line-height: 300px;
     text-align: center;
-    border: solid;
+    background-color: #8B0000;
+    color: #fff;
 }
 
-.project-area{
-    padding: 30px 0px 30px;
-    background-color: #BDB76B;
-    border: solid;
+.project-area .row{
+    width: 1200px;
+    margin: 0 auto;
 }
 .project-area .project-title{
     display: flex;
-    border: solid;
 }
 .project-area .project-title .project-text{
     width: 60%;
     height: 150px;
     line-height: 150px;
     text-align: center;
-    border: solid;
+    background-color: #B8860B;
 }
 .project-area .project-title .project-view{
     width: 40%;
     height: 150px;
     line-height: 150px;
     text-align: center;
-    border: solid;
+    background-color: #D2691E;
 }
 .project-area .project-image{
     height: 300px;
     line-height: 300px;
     text-align: center;
-    border: solid;
+    background-color: #DEB887;
 }
 
-.funfact-area{
+.funfact-area .row{
+    width: 1200px;
+    margin: 0 auto;
     padding: 30px 0px 30px;
-    border: solid;
+    background-color: #87CEEB;
 }
 .funfact-area .funfact-title{
+    padding: 30px;
     text-align: center;
-    border: solid;
 }
 .funfact-area .column{
     float: left;
@@ -237,79 +246,85 @@
     height: 120px;
     line-height: 120px;
     text-align: center;
-    border: solid;
+    background-color: #4682B4;
 }
 
 .testimonial-area{ 
-    margin: 30px 0px 30px;
+    width: 1200px;
+    margin: 0 auto;
     height: 300px;
     line-height: 300px;
     text-align: center;
     background-color: #5F9EA0;
-    border: solid;
+    background-color: #F5DEB3;
 }
 
-.faq-area{
-    display: flex;
-    padding: 30px 0px 30px;
-    border: solid;
+.faq-area .row{
+    width: 1200px;
+    margin: 0 auto;
 }
 .faq-area .faq-title{
+    float: left;
     width: 50%;
     height: 350px;
     line-height: 350px;
     text-align: center;
-    border: solid;
+    background-color: #008080;
 }
 .faq-area .faq-items{
+    float: left;
     width: 50%;
     height: 350px;
     line-height: 350px;
     text-align: center;
-    border: solid;
+    background-color: #40E0D0;
 }
 
 
-.social-area{
-    display: flex;
-    padding: 30px 0px 30px;
+.social-area .row{
+    width: 1200px;
+    margin: 0 auto;
     background-color: #E6E6FA;
-    border: solid;
 }
 .social-area .column{
+    float: left;
     width: 50%;
     text-align: center;
-    border: solid;
 }
 .social-area .column .items{
     height: 50px;
     line-height: 50px;
     margin: 40px 30px 40px;
     text-align: center;
-    border: solid;
+    background-color: #6A5ACD;
+    color: #fff;
 }
 
 .cta-area{
-    margin-top: 50px;
+    width: 1200px;
+    margin: 0 auto;
     text-align: center;
     height: 300px;
     line-height: 300px;
-    border: solid;
+    background-color: #DC143C;
 }
 
 .brand-area{
+    width: 1200px;
+    margin: 0 auto;
     text-align: center;
     height: 100px;
     line-height: 100px;
-    margin: 30px 0px 30px;
     background-color: #4682B4;
-    border: solid;
 }
 
 .footer{
     padding: 30px 0px 30px;
-    background-color: #A0522D;
-    border: solid;
+    background-color: #FFDAB9;
+}
+.footer .row{
+    width: 1200px;
+    margin: 0 auto;
 }
 .footer .column{
     float: left;
@@ -317,7 +332,7 @@
     height: 200px;
     line-height: 200px;
     text-align: center;
-    border: solid;
+    background-color: #CD853F;
 }
 
 
