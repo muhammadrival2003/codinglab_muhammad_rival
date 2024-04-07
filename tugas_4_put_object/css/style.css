@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "DM Sans", sans-serif;
 }
 
 .container{
@@ -13,6 +15,7 @@
     top: 0;
     background-color: #fff;
     background-color: #DAA520;
+    z-index: 999;
 }
 .header .row{
     width: 1200px;
@@ -42,7 +45,7 @@
 }
 .header .header-right{
     width: 25%;
-    text-align: center;
+    text-align: end;
     line-height: 40px;
 }
 .header .header-right a{
@@ -103,73 +106,121 @@
     height: 400px;
 }
 .banner-right img{
-    width: 300px;;
+    width: 600px;;
 }
 
 .seo-area .row{
     width: 1200px;
     margin: 0 auto;
     padding: 30px 0px 30px;
-    background-color: #ADD8E6;
+    /* background-color: #ADD8E6; */
 }
 .seo-area .introduce{
     text-align: center;
     padding: 30px;
 }
+.seo-area .introduce h3{
+    font-weight: 700;
+    font-size: 50px;
+    
+}
 .seo-area .excess .growing{
+    position: relative;
     width: 375px;
     height: 500px;
-    line-height: 500px;
     float: left;
     margin-right: 37.5px;
-    text-align: center;
-    background-color: #E6E6FA;
+    padding: 50px;
+    background: linear-gradient(180deg, rgba(255,253,207,1) 0%, rgba(255,234,196,1) 50%, rgba(136,255,147,1) 100%);
+}
+.seo-area .excess .growing h2{
+    font-size: 30px;
+}
+.seo-area .excess .growing img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    width: 100%;
 }
 .seo-area .excess .speed{
+    position: relative;
     width: 375px;
     height: 500px;
-    line-height: 500px;
     float: left;
     margin-right: 37.5px;
-    text-align: center;
-    background-color: #FFF0F5;
+    padding: 50px;
+    background: linear-gradient(180deg, rgba(255,219,193,1) 0%, rgba(255,219,193,1) 50%, rgba(255,219,193,1) 100%);
+}
+.seo-area .excess .speed h2{
+    font-size: 30px;
+}
+.seo-area .excess .speed img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    width: 100%;
 }
 .seo-area .excess .testing{
+    position: relative;
     width: 375px;
     height: 500px;
-    float: right;
-    line-height: 500px;
-    text-align: center;
-    background-color: #FFFACD;
+    float: left;
+    padding: 50px;
+    background: linear-gradient(180deg, rgba(199,217,255,1) 0%, rgba(156,189,255,1) 50%, rgba(151,186,255,1) 100%);
+}
+.seo-area .excess .testing h2{
+    font-size: 30px;
+}
+.seo-area .excess .testing img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    width: 100%;
 }
 
 .drive-area .row{
     width: 1200px;
     margin: 0 auto;
     padding: 30px 0px 30px;
-    background-color: #5F9EA0;
+    /* background-color: #5F9EA0; */
 }
 .drive-area .drive-title{
     padding: 30px;
     text-align: center;
+}
+.drive-area .drive-title h2{
+    font-size: 50px;
 }
 .drive-area .drive-content .ux{
     display: flex;
     margin-bottom: 20px;
 }
 .drive-area .drive-content .ux .ux-left{
+    display: flex;
+    align-content: center;
+    justify-content: center;
     width: 600px;
     height: 350px;
-    line-height: 350px;
-    text-align: center;
-    background-color: #D3D3D3;
+    /* background-color: #D3D3D3; */
 }
 .drive-area .drive-content .ux .ux-right{
     width: 600px;
     height: 350px;
-    line-height: 350px;
-    text-align: center;
-    background-color: #778899;
+    padding: 30px;
+    /* background-color: #778899; */
+}
+.drive-area .drive-content .ux .ux-right h4{
+    margin-bottom: 20px;
+    color: grey;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+.drive-area .drive-content .ux .ux-right h2{
+    font-size: 30px;
 }
 .drive-area .drive-content .more{
     display: flex;
@@ -177,20 +228,47 @@
 .drive-area .drive-content .more .more-left{
     width: 600px;
     height: 350px;
-    line-height: 350px;
-    text-align: center;
-    background-color: #778899;
+    padding: 30px;
+    /* background-color: #778899; */
+}
+.drive-area .drive-content .more .more-left h4{
+    margin-bottom: 15px;
+    color: grey;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+.drive-area .drive-content .more .more-left h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.drive-area .drive-content .more .more-left p{
+    font-size: 12px;
+    font-weight: 300;
+}
+.drive-area .drive-content .more .more-left .drive-btn{
+    margin-top: 25px;
+}
+.drive-area .drive-content .more .more-left .drive-btn a{
+    text-decoration: none;
+    padding: 10px 20px 10px;
+    color: #fff;
+    background-color: #59BA41;
 }
 .drive-area .drive-content .more .more-right{
+    display: flex;
+    align-content: center;
+    justify-content: center;
     width: 600px;
     height: 350px;
-    line-height: 350px;
-    text-align: center;
-    background-color: #D3D3D3;
+    /* background-color: #D3D3D3; */
+}
+.drive-area .drive-content .more .more-right img{
+
 }
 
 .service-area{
-    background-color: #20B2AA;
+    background-color: #FFFACD;
 }
 .service-area .row{
     width: 1200px;
@@ -201,17 +279,41 @@
     text-align: center;
     padding: 30px;
 }
+.service-area .service-title h2{
+    font-size: 50px;
+}
 .service-area .service-content{
     margin-top: 30px;
 }
 .service-area .service-content .column{
+    display: flex;
     float: left;
     width: 50%;
-    height: 150px;
-    line-height: 150px;
-    text-align: center;
-    background-color: #8FBC8F;
-    border: solid;
+    height: 175px;
+    /* background-color: #8FBC8F; */
+}
+.service-area .service-content .column .items{
+    display: flex;
+    width: 100%;
+    margin: 10px;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 7px 7px 11px -5px rgba(0,0,0,0.2);
+}
+.service-area .service-content .column .items img{
+    margin-right: 30px;
+}
+.service-area .service-content .column .items .items-text h2{
+    margin-bottom: 10px;
+    font-size: 23px;
+    font-weight: 500;
+}
+.service-area .service-content .column .items .items-text h6{
+    margin-bottom: 10px;
+    color: #778899;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
 }
 
 .award-area{
